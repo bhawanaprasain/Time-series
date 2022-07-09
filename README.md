@@ -59,4 +59,47 @@ Cyclical behavior on  can drift over time and  the time between periods isn't pr
 ### Random or Irregular movements
 These are sudden changes occuring in a time series which are unlikely to be repeated. These are the components of a time series which cannot be explained by trends, seasonal or cyclic movements. These variations are sometimes called residual or random components. These variations, though accidental in nature, can cause a continual change in the trends, seasonal and cyclical oscillations during the forthcoming period. Earthquakes,  worldwide COVID pandemic are some examples of  the root causes irregular movements.  
   
+## Mathematical representation of time series
+Let us represent time by variable `t`  and let  y<sub>t</sub>  be variable under study.
+
+Since  y<sub>t</sub>  is function of time , mathematically we can write:
+ y<sub>t</sub> = f (t)
+
+Let the value of variable be  y<sub>1</sub>,y<sub>2</sub>,y<sub>3</sub>,y<sub>4</sub>.....y<sub>n</sub> at times t<sub>1</sub>,t<sub>2</sub>,t<sub>3</sub>,t<sub>4</sub>.....t<sub>n</sub> respectively.
+
+We have three models for time series :
+*  Additive Model 
+* Multiplicative Model
+* Mixed model
+
+## Additive Model
+Let us  consider T<sub>t</sub>, S<sub>t</sub>, C<sub>t</sub>, and R<sub>t</sub> as the  trend value, seasonal, cyclic and random fluctuations at time t respectively.
+
+So the value of yt at any time t can be written as:
+y<sub>t</sub> =  T<sub>t</sub>+ S<sub>t</sub>+ C<sub>t</sub>+R<sub>t</sub> 
+
+Additive  model assumes that trend value, seasonal, cyclic and random fluctuations  act independently of each other.
+
+## Multiplicative Model
+
+Let us  consider T<sub>t</sub>, S<sub>t</sub>, C<sub>t</sub>, and R<sub>t</sub> as the  trend value, seasonal, cyclic and random fluctuations at time t respectively.
+
+So the value of yt at any time t can be written as:
+
+y<sub>t</sub> =  T<sub>t</sub>× S<sub>t</sub>×C<sub>t</sub>×R<sub>t</sub> 
+
+Thus in multiplicative model, trend value, seasonal, cyclic and random fluctuations in a time series operate proportionately to each other.
+
+## Mixed model
+
+It is formed using various combination of additive and multiplicative models.
+
+An example of combination can be :
+
+y<sub>t</sub> =  T<sub>t</sub>× S<sub>t</sub>+ C<sub>t</sub>×R<sub>t</sub>
+
+Another example of combination can be :
+
+y<sub>t</sub> =  T<sub>t</sub>+ S<sub>t</sub>+ C<sub>t</sub>×R<sub>t</sub>
+
 
