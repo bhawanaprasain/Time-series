@@ -5,6 +5,8 @@ A time series can be defined as a  phenomena whose mathematical representation c
 
 Let us consider an example of rainfall of a city. The amount of rainfall can take any value. Amount of rainfall is continuous and random in nature. We record rainfall on daily basis and hence the time is discrete in nature. Collectively, the whole process is a time dependent random phenomenon.
 
+## Relation between stochastic process and time series
+
 Time series is a subset of stochastic process. A time series can simply  be understood as a collection of data points describing  value of some phenomea in relation with time. A stochastic process  is a mathematical model that describes distribution of time series. So one can use a stochastic process as a model to generate a time series.
 
 Stochastic processes are more general than time series. For example Markov chains are stochastic processes that are not time series
