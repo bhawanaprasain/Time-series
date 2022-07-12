@@ -3,8 +3,14 @@ Moving average is calculated by taking  an average of fixed number of items in t
 Let y<sub>1</sub>, y<sub>2</sub>,y<sub>3</sub>,y<sub>4</sub>,y<sub>5</sub>......y<sub>n</sub> be the values of variables at time  t<sub>1</sub>, t<sub>2</sub>,t<sub>3</sub>,t<sub>4</sub>,t<sub>5</sub>......t<sub>n</sub> .
 
 y<sub>1</sub>+y<sub>2</sub>+.......+y<sub>k</sub> , y<sub>2</sub>+y<sub>3</sub>.......+y<sub>k+1</sub> are moving totals of `k`.
+<br>
+If we divide these moving totals by `k` we can get moving average.
 
-## Why do we need moving average 
+
+
+
+
+## Why do we need moving average ?
 
 Moving averages help in  smoothing out the volatility of constantly changing variables like price in stock market.  This way, short-term fluctuations are reduced, and investors can get a more generalized picture.
 
@@ -19,3 +25,4 @@ Averaging method will not support in capturing low values and peak values associ
 
 * Identical weighing
 Identical weights are assigned to all data points. However this might lead to issue as  the most recent values have more impact on the future in most cases.
+
